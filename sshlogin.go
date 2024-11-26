@@ -320,7 +320,7 @@ func main(){
     // 公钥登录
     private_key:=`-----BEGIN OPENSSH PRIVATE KEY-----
 -----END OPENSSH PRIVATE KEY-----`
-    output,err:=SshLogin("10.180.68.220",22,"blueice","BlueLinux",private_key,[]string{"whoami","sudo -s","whoami","uname -na"})
+    output,err:=SshLogin("10.180.68.220",22,"blueice","XxXxXxXxXxXx",private_key,[]string{"whoami","sudo -s","whoami","uname -na"})
 
     // // 密码登录
     // output,err:=SshLogin("10.180.68.220",22,"fsp","XxXxXxXxXxXx","",[]string{"whoami","uname -na"})
